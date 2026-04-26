@@ -16,8 +16,6 @@ cd All-HCB-Card-Numbers
 python3 main.py
 ```
 
----
-
 > [!TIP]
 > - When hovering the code block above, you should be able to copy it in one click.
 > - After opening your terminal, both right-click and `Ctrl`+`V` or `Command`+`V` can make pasting really easy.
