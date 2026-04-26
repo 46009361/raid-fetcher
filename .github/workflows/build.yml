@@ -3,7 +3,7 @@ name: Build Executables
 on:
   push:
     tags:
-      - "v*"  # triggers on version tags like v1.0.0
+      - "v*"
 
 jobs:
   build:
@@ -26,12 +26,11 @@ jobs:
       - name: Build
         run: pyinstaller --onefile main.py
 
-      - name: Upload artifact
-        uses: actions/upload-release-asset@v1
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/main
+            dist/main.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./dist/main${{ matrix.os == 'windows-latest' && '.exe' || '' }}
-          asset_name: main-${{ matrix.os }}${{ matrix.os == 'windows-latest' && '.exe' || '' }}
-          asset_content_type: application/octet-stream
