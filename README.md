@@ -21,3 +21,6 @@ python3 main.py
 > - After opening your terminal, both right-click and `Ctrl`+`V` or `Command`+`V` can make pasting really easy.
 >    - You don't need to install Python 3 manually. Most Linux terminals come pre-installed with it.
 >    - Check if `python3 -V` returns 3.6 or newer to avoid errors; that's when underscores started being supported in numbers.
+
+> [!NOTE]
+> To Shipwrights, [I was told the demo should be fine.](https://hackclub.enterprise.slack.com/archives/C099P9FQQ91/p1777239760626409?thread_ts=1777238194.464899&cid=C099P9FQQ91)
