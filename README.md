@@ -1,6 +1,6 @@
 # Image Fetcher for Reddit Achievements
 
-A CORS proxy that can only go to one domain and one URL structure (`share.redd.it`), to prevent heavy abuse of resources.
+A CORS proxy that can only go to one domain and one URL structure (`share.redd.it`), to prevent heavy abuse of resources. Used with [Image Downloader for Reddit Achievements](https://github.com/46009361/raid).
 
 ## Running locally
 
