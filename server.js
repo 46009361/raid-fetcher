@@ -24,7 +24,7 @@ app.get('/preview/user/*/achievement/*', async (req, res) => {
       method: req.method,
       headers: {
         'Accept-Language': req.headers['accept-language'],
-        'User-Agent': `web:4600936.uno:v3.0 (by /u/46009361) contact ${process.env.EMAIL}`
+        'User-Agent': `web:4600936.uno:v3.0.1 (by /u/46009361) contact ${process.env.EMAIL}`
       }
     });
 
