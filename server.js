@@ -42,6 +42,6 @@ app.get('/preview/user/*/achievement/*', async (req, res) => {
   }
 });
 
-app.listen(PORT, '127.0.0.1', () => {
+app.listen(PORT, '::', () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
