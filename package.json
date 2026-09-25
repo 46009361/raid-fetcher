@@ -1,0 +1,23 @@
+{
+  "name": "raid-fetcher",
+  "version": "1.0.0",
+  "description": "A simple text file containing every [HCB](https://hcb.hackclub.com/) card number possible, shown in [`output.txt`](output.txt), generated using Python.\r At the very least, all my cards start with the same first eight digits. I'm pretty sure at least one of your card numbers is in there! I use spaces as\r delimeters.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/46009361/raid-fetcher.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3"
+  },
+  "bugs": {
+    "url": "https://github.com/46009361/raid-fetcher/issues"
+  },
+  "homepage": "https://github.com/46009361/raid-fetcher#readme"
+}
