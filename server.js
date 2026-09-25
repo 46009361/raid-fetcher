@@ -6,7 +6,7 @@ const PORT = 3000;
 const ALLOWED_HOST = 'share.redd.it';
 
 app.use(cors({
-  origin: 'null',        // only this origin allowed
+  origin: `https://${ALLOWED_HOST}`,        // only this origin allowed
   methods: ['GET'],                    // only these methods
   allowedHeaders: ['Content-Type'],    // only these request headers
 }));
